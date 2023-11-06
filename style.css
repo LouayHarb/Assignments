@@ -1,0 +1,245 @@
+* {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+.header-section {
+    background-image: url('images/main.jpg');
+    background-size: cover;
+    background-position: center; /* Position the image in the center */
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.block {
+    text-align: center; /* Center content horizontally */
+    padding: 30px;
+    margin: 20px;
+    border-radius: 10px; 
+    color: #f4faf7; 
+    max-width: 300px; /* Adjust the width as needed */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.block img {
+    width: 300px;
+}
+.block h2 {
+    font-size: 0.7rem; 
+    color: #00ED82;
+    margin-top: 0;
+}
+.block p{
+    font-size: 1.5rem
+}
+.block button {
+    background-color: #00ED82; /* Button background color */
+    color: rgb(9, 9, 9); /* Button text color */
+    padding: 10px 80px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.header-section::before {
+    content: "Hulu"; 
+    color: #00ED82; 
+    font-size: 2rem; 
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute; 
+    top: 10px; /* Adjust the top position */
+    left: 10px;
+}
+.green-section {
+    background-color: #0b4327;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    width: 100%;
+    
+}
+.green-section h2 {
+    font-size: 1.5rem; 
+    margin-top: 0;}
+
+.white-button {
+    background-color:#0b4327;
+    color: #00ED82;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.black-section {
+    background-color: #272c34;
+    padding: 20px;
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: center;
+}
+
+.green-text {
+    color: #00ED82;
+    font-size: 1rem;
+}
+.black-section p{
+    color: white;
+    margin: 16px 0 10px;
+    font-size: 1rem; 
+}
+.black-section h3{
+    color: white; 
+    margin: 16px 0 10px;
+    font-size: 3rem;
+}
+.black-section h2{
+    color: #00ED82; 
+    margin: 40px 0 10px;
+    font-size: 1rem;
+}
+.h3{
+    color: white; 
+    margin: 16px 0 10px;
+    font-size: 3rem;
+}
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    padding: 5%;
+}
+.family-image {
+    max-width: 30%;
+    margin: 0 20px;
+    border-radius: 5%; 
+}
+.green-button {
+    background-color: #1ce783;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.white-link {
+    color: white;
+    text-decoration: underline;
+}
+.LiveSports{
+    background-image: url('images/sports.png');
+    background-size: cover; 
+    background-position: center; 
+    height: 100vh; /* Set the height to the viewport height for a full-screen effect */
+    display: flex;
+    width: 100%;
+}
+.livesportsinfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    width: 50%;
+}
+.livesportsinfo h2{
+    color: white;
+    justify-content: start;
+    font-size: 50px;
+    margin: 15px;    
+}
+.livesportsinfo p{
+    color: white;
+    justify-content: start;
+    width: 60%;
+}
+.livetext{
+    font-size:10px;
+}
+
+.white-text{
+    margin: 5%;
+}
+.liveSportsimgs{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;  
+    
+}
+.liveSportsimgs img{
+    height: 40px;
+    width: 40px;
+    border-radius: 70%;
+    margin: 20px;
+}
+.titlesports{
+    color: white;
+    text-align: center;
+    margin: 10px;
+}
+.linkscontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+}
+footer{
+    background-color:586174 ;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color:#e4e5ea ;
+
+}
+.classfooter{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%; /* Set the maximum width for each image */
+    gap: 100px;
+    margin: 60px;
+    color: #586174;
+    font-family:  "Graphik Web",sans-serif;
+    font-size: 15px;
+
+}
+.classfooter p{
+    margin: 10px;
+}
+.social-icons{
+    display: flex;
+    justify-content: center;
+
+}
+.social-icons img{
+    padding: 20px;
+}
+.aftericons p{
+    padding: 10px;
+    margin: 20px;
+    color: #586174;
+    font-family:  "Graphik Web",sans-serif;
+    font-size: 15px;
+}
+.aftericons{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    padding: 20px; 
+      
+}
+
+
+
+
+
+
